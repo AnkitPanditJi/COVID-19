@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    android:background="@color/white"
+    tools:context=".Design.Login.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:text="Register User"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:weightSum="3" >
+
+                <RadioGroup
+                    android:id="@+id/radioGrp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/custom_background_unselect" >
+
+                <RadioButton android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button1"
+                    android:text="Male"
+                    android:textAllCaps="false"
+                  android:layout_weight="1"/>
+
+                <RadioButton android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:text="Female"
+                    android:textAllCaps="false"
+                    android:id="@+id/button2"
+                    android:layout_weight="1"/>
+
+                <RadioButton android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button3"
+                    android:text="Other"
+                    android:layout_weight="1"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <EditText
+                android:padding="15dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginTop="10dp"
+                android:id="@+id/user_age"
+                android:textSize="16dp"
+                android:hint="Age"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:text=""
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <EditText
+                android:padding="15dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginTop="10dp"
+                android:id="@+id/house_address"
+                android:textSize="16dp"
+                android:hint="House No"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <EditText
+                android:padding="15dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginTop="10dp"
+                android:id="@+id/city"
+                android:textSize="16dp"
+                android:hint="City"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <EditText
+                android:padding="15dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginTop="10dp"
+                android:id="@+id/state"
+                android:textSize="16dp"
+                android:hint="State"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <EditText
+                android:padding="15dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginTop="10dp"
+                android:id="@+id/country"
+                android:textSize="16dp"
+                android:hint="Country"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/register_user"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

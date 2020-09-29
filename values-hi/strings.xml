@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Covid Checkup</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Cancel</string>
+
+    <string name="app_by_blavas">Powered By : BLAVAS GPS TECHNOLOGY</string>
+
+    <string name="slide_1_title">Lets beat crona together !</string>
+    <string name="slide_1_desc">#STAYHOMESAFELIFE!</string>
+
+    <string name="slide_2_title"> </string>
+    <string name="slide_2_desc">Lets get together and fight with corona ! </string>
+
+    <string name="slide_3_title">COVID-19 CHECKUP</string>
+    <string name="slide_3_desc"> </string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="overseas">हाल ही में प्रवासी यात्रा की</string>
+    <string name="fever">बुखार</string>
+    <string name="cough">सूखी खाँसी</string>
+    <string name="breathing">सांस लेने मे तकलीफ</string>
+    <string name="tiredness">थकान</string>
+    <string name="come_in_contact">कोरोना वायरस के रोगी के संपर्क में आएं</string>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorLayout"
+    android:background="@color/white"
+    tools:context=".Design.Login.LoginActivity">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center"
+                android:padding="25dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/splash_logo"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:text="Login"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:padding="15dp"
+                    android:background="@drawable/edittext_bg"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/userName"
+                    android:textSize="16dp"
+                    android:hint="Full Name"
+                    android:singleLine="true"
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </EditText>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/edittext_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:background="@drawable/country_code_bg"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:gravity="center"
+                            android:textSize="16dp"
+                            android:text="+91"
+                            android:textColor="@color/white"
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"></TextView>
+                    </LinearLayout>
+                    <EditText
+                        android:padding="15dp"
+                        android:textSize="16dp"
+                        android:id="@+id/mobile_number"
+                        android:text=""
+                        android:background="@null"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:hint="Mobile Number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </EditText>
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/loginBtn"
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
